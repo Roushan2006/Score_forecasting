@@ -1,4 +1,4 @@
-🏏 Cricket Score Prediction – Description
+🏏 Cricket Score Prediction 
 Cricket Score Prediction refers to the use of statistical models, machine learning, or deep learning techniques to forecast the outcome of a cricket match in terms of runs, wickets, or final scores. It combines historical data, player performance, and match conditions to estimate likely results.
 
 🔑 Key Aspects
