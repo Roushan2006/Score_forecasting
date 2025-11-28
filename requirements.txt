@@ -1,5 +1,6 @@
-numpy
-pandas
-Flask
-scikit-learn==1.6.1
+flask
 gunicorn
+scikit-learn==1.6.1
+xgboost==1.7.6
+pandas
+numpy
