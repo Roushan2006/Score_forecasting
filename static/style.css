@@ -5,10 +5,29 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
     /* overflow-x: hidden; */
-    background: url('images/2.jpg') ;
+    background: url('./images/2.jpg') ;
     background-size: cover;
     position: relative;
+    height: 100vh;
+    background-position: center;
+    animation: bgRandom 20s steps(1) infinite;
 }
+
+
+@keyframes bgRandom {
+  0%  { background-image: url('./images/11.jpeg'); }
+  10% { background-image: url('./images/5.jpeg'); }
+  20% { background-image: url('./images/1.jpeg'); }
+  30% { background-image: url('./images/4.jpeg'); }
+  40% { background-image: url('./images/3.jpeg'); }
+  50% { background-image: url('./images/7.jpeg'); }
+  60% { background-image: url('./images/2.jpeg'); }
+  70% { background-image: url('./images/6.jpeg'); }
+  80% { background-image: url('./images/9.jpeg'); }
+  90% { background-image: url('./images/10.jpeg'); }
+  100% { background-image: url('./images/8.jpeg'); }
+}
+
 .overlay {
     position: absolute;
     top: 0;

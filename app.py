@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Define the path to the model file
-model_path = r'Model/model.pkl'
+model_path = r'model/model.pkl'
 
 # Check if the model file exists
 if not os.path.exists(model_path):
@@ -66,4 +66,4 @@ def index():
     return render_template('index.html', teams=sorted(teams), venues=sorted(venues), prediction=prediction)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000)
