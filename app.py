@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Define the path to the model file
-model_path = r'model/model.pkl'
+model_path = r'Model/model.pkl'
 
 # Check if the model file exists
 if not os.path.exists(model_path):
