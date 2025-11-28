@@ -65,5 +65,3 @@ def index():
             prediction = f"Error: {str(e)}"  # Display error message in case of an exception
     return render_template('index.html', teams=sorted(teams), venues=sorted(venues), prediction=prediction)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
